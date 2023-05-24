@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C93EEA2C2A1DF6AF006BB912 /* ToDoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93EEA2B2A1DF6AF006BB912 /* ToDoList.swift */; };
 		C9489F762A1D91ED0095831C /* PickerContenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9489F752A1D91ED0095831C /* PickerContenView.swift */; };
 		C9489F792A1D98EB0095831C /* ModifierContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9489F782A1D98EB0095831C /* ModifierContentView.swift */; };
 		C9489F7C2A1D9AF70095831C /* BlueCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9489F7B2A1D9AF70095831C /* BlueCircle.swift */; };
@@ -15,6 +16,10 @@
 		C9489F842A1DA3080095831C /* UIKitToSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9489F832A1DA3080095831C /* UIKitToSwiftUIView.swift */; };
 		C9489F862A1DA32A0095831C /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9489F852A1DA32A0095831C /* ActivityIndicator.swift */; };
 		C9489F892A1DA6720095831C /* MoreViewsContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9489F882A1DA6720095831C /* MoreViewsContentView.swift */; };
+		C9489F8C2A1DE6770095831C /* WebScrollContenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9489F8B2A1DE6770095831C /* WebScrollContenView.swift */; };
+		C9489F8F2A1DE9A70095831C /* StaticContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9489F8E2A1DE9A70095831C /* StaticContentView.swift */; };
+		C9489F922A1DF0B00095831C /* WeatherRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9489F912A1DF0B00095831C /* WeatherRow.swift */; };
+		C9489F952A1DF1DB0095831C /* ListAddContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9489F942A1DF1DB0095831C /* ListAddContentView.swift */; };
 		C96C74F62A1CB9E100D6D0CF /* SwiftUI_PracApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96C74F52A1CB9E100D6D0CF /* SwiftUI_PracApp.swift */; };
 		C96C74F82A1CB9E100D6D0CF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96C74F72A1CB9E100D6D0CF /* ContentView.swift */; };
 		C96C74FA2A1CB9E100D6D0CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C96C74F92A1CB9E100D6D0CF /* Assets.xcassets */; };
@@ -28,6 +33,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C93EEA2B2A1DF6AF006BB912 /* ToDoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoList.swift; sourceTree = "<group>"; };
 		C9489F752A1D91ED0095831C /* PickerContenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerContenView.swift; sourceTree = "<group>"; };
 		C9489F782A1D98EB0095831C /* ModifierContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifierContentView.swift; sourceTree = "<group>"; };
 		C9489F7B2A1D9AF70095831C /* BlueCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueCircle.swift; sourceTree = "<group>"; };
@@ -36,6 +42,10 @@
 		C9489F832A1DA3080095831C /* UIKitToSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitToSwiftUIView.swift; sourceTree = "<group>"; };
 		C9489F852A1DA32A0095831C /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
 		C9489F882A1DA6720095831C /* MoreViewsContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreViewsContentView.swift; sourceTree = "<group>"; };
+		C9489F8B2A1DE6770095831C /* WebScrollContenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebScrollContenView.swift; sourceTree = "<group>"; };
+		C9489F8E2A1DE9A70095831C /* StaticContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticContentView.swift; sourceTree = "<group>"; };
+		C9489F912A1DF0B00095831C /* WeatherRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherRow.swift; sourceTree = "<group>"; };
+		C9489F942A1DF1DB0095831C /* ListAddContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListAddContentView.swift; sourceTree = "<group>"; };
 		C96C74F22A1CB9E100D6D0CF /* SwiftUI-Prac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Prac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C96C74F52A1CB9E100D6D0CF /* SwiftUI_PracApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_PracApp.swift; sourceTree = "<group>"; };
 		C96C74F72A1CB9E100D6D0CF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -61,6 +71,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C93EEA2A2A1DF69F006BB912 /* ToDoList */ = {
+			isa = PBXGroup;
+			children = (
+				C93EEA2B2A1DF6AF006BB912 /* ToDoList.swift */,
+			);
+			path = ToDoList;
+			sourceTree = "<group>";
+		};
 		C9489F732A1D91B60095831C /* PickerView */ = {
 			isa = PBXGroup;
 			children = (
@@ -119,6 +137,38 @@
 			path = MoreVIews;
 			sourceTree = "<group>";
 		};
+		C9489F8A2A1DE6410095831C /* WebScroll */ = {
+			isa = PBXGroup;
+			children = (
+				C9489F8B2A1DE6770095831C /* WebScrollContenView.swift */,
+			);
+			path = WebScroll;
+			sourceTree = "<group>";
+		};
+		C9489F8D2A1DE9900095831C /* StaticList */ = {
+			isa = PBXGroup;
+			children = (
+				C9489F8E2A1DE9A70095831C /* StaticContentView.swift */,
+			);
+			path = StaticList;
+			sourceTree = "<group>";
+		};
+		C9489F902A1DF0650095831C /* CustomRows */ = {
+			isa = PBXGroup;
+			children = (
+				C9489F912A1DF0B00095831C /* WeatherRow.swift */,
+			);
+			path = CustomRows;
+			sourceTree = "<group>";
+		};
+		C9489F932A1DF1C90095831C /* ListAdd */ = {
+			isa = PBXGroup;
+			children = (
+				C9489F942A1DF1DB0095831C /* ListAddContentView.swift */,
+			);
+			path = ListAdd;
+			sourceTree = "<group>";
+		};
 		C96C74E92A1CB9E100D6D0CF = {
 			isa = PBXGroup;
 			children = (
@@ -138,6 +188,11 @@
 		C96C74F42A1CB9E100D6D0CF /* SwiftUI-Prac */ = {
 			isa = PBXGroup;
 			children = (
+				C93EEA2A2A1DF69F006BB912 /* ToDoList */,
+				C9489F932A1DF1C90095831C /* ListAdd */,
+				C9489F902A1DF0650095831C /* CustomRows */,
+				C9489F8D2A1DE9900095831C /* StaticList */,
+				C9489F8A2A1DE6410095831C /* WebScroll */,
 				C9489F872A1DA6580095831C /* MoreVIews */,
 				C9489F822A1DA2F00095831C /* UIKitToSwiftUI */,
 				C9489F7F2A1D9D330095831C /* SF Symbols */,
@@ -251,15 +306,20 @@
 				C96C75102A1CD17100D6D0CF /* ButtonView.swift in Sources */,
 				C9489F762A1D91ED0095831C /* PickerContenView.swift in Sources */,
 				C9489F7C2A1D9AF70095831C /* BlueCircle.swift in Sources */,
+				C9489F952A1DF1DB0095831C /* ListAddContentView.swift in Sources */,
 				C96C74F82A1CB9E100D6D0CF /* ContentView.swift in Sources */,
 				C96C75072A1CD05600D6D0CF /* EditButtonView.swift in Sources */,
+				C9489F8C2A1DE6770095831C /* WebScrollContenView.swift in Sources */,
+				C93EEA2C2A1DF6AF006BB912 /* ToDoList.swift in Sources */,
 				C9489F812A1D9DB10095831C /* SFSymbolContentView.swift in Sources */,
 				C9489F7E2A1D9BDF0095831C /* ViewBuilderContentView.swift in Sources */,
 				C96C750B2A1CD08E00D6D0CF /* MenuButtonView.swift in Sources */,
+				C9489F922A1DF0B00095831C /* WeatherRow.swift in Sources */,
 				C9489F842A1DA3080095831C /* UIKitToSwiftUIView.swift in Sources */,
 				C9489F892A1DA6720095831C /* MoreViewsContentView.swift in Sources */,
 				C96C75092A1CD08300D6D0CF /* PasteButtonView.swift in Sources */,
 				C96C74F62A1CB9E100D6D0CF /* SwiftUI_PracApp.swift in Sources */,
+				C9489F8F2A1DE9A70095831C /* StaticContentView.swift in Sources */,
 				C9489F792A1D98EB0095831C /* ModifierContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

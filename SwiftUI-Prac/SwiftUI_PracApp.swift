@@ -15,7 +15,9 @@ struct SwiftUI_PracApp: App {
 //            ImageView()
 //            ButtonContentView()
 //            PickerContenView()
-            MoreViewsContentView()
+//            MoreViewsContentView()
+//            StaticContentView()
+            ToDoList()
         }
     }
 }
