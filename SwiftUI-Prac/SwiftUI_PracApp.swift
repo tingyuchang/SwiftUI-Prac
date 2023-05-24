@@ -11,7 +11,11 @@ import SwiftUI
 struct SwiftUI_PracApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//            ContentView()
+//            ImageView()
+//            ButtonContentView()
+//            PickerContenView()
+            MoreViewsContentView()
         }
     }
 }
