@@ -17,7 +17,8 @@ struct SwiftUI_PracApp: App {
 //            PickerContenView()
 //            MoreViewsContentView()
 //            StaticContentView()
-            ToDoList()
+//            ToDoList()
+            LazyGridContentView()
         }
     }
 }

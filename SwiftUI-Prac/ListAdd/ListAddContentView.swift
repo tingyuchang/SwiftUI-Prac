@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ListAddContentView: View {
     @State var numbers = [1,2,3,4]
+    var test = ""
     var body: some View {
         NavigationView {
             List {
@@ -60,6 +61,7 @@ struct ListAddContentView: View {
     private func MoveRow(source: IndexSet, destination: Int) {
         self.numbers.move(fromOffsets: source, toOffset: destination)
     }
+    
 }
 
 struct ListAddContentView_Previews: PreviewProvider {

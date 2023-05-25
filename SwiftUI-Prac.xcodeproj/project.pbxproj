@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C91410012A1F3BA000BDFCDB /* LazyStackContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91410002A1F3BA000BDFCDB /* LazyStackContentView.swift */; };
+		C91410032A1F3BCB00BDFCDB /* ListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91410022A1F3BCB00BDFCDB /* ListRow.swift */; };
+		C91410052A1F3E6E00BDFCDB /* LazyGridContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91410042A1F3E6E00BDFCDB /* LazyGridContentView.swift */; };
+		C91410082A1F424E00BDFCDB /* ScrollViewReaderContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91410072A1F424E00BDFCDB /* ScrollViewReaderContentView.swift */; };
+		C914100B2A1F478300BDFCDB /* BackPack.swift in Sources */ = {isa = PBXBuildFile; fileRef = C914100A2A1F478300BDFCDB /* BackPack.swift */; };
+		C914100D2A1F48A300BDFCDB /* ExpandingListContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C914100C2A1F48A300BDFCDB /* ExpandingListContentView.swift */; };
+		C91410102A1F4B5600BDFCDB /* DisclosureContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C914100F2A1F4B5600BDFCDB /* DisclosureContentView.swift */; };
 		C93EEA2C2A1DF6AF006BB912 /* ToDoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93EEA2B2A1DF6AF006BB912 /* ToDoList.swift */; };
 		C9489F762A1D91ED0095831C /* PickerContenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9489F752A1D91ED0095831C /* PickerContenView.swift */; };
 		C9489F792A1D98EB0095831C /* ModifierContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9489F782A1D98EB0095831C /* ModifierContentView.swift */; };
@@ -33,6 +40,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C91410002A1F3BA000BDFCDB /* LazyStackContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyStackContentView.swift; sourceTree = "<group>"; };
+		C91410022A1F3BCB00BDFCDB /* ListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRow.swift; sourceTree = "<group>"; };
+		C91410042A1F3E6E00BDFCDB /* LazyGridContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyGridContentView.swift; sourceTree = "<group>"; };
+		C91410072A1F424E00BDFCDB /* ScrollViewReaderContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReaderContentView.swift; sourceTree = "<group>"; };
+		C914100A2A1F478300BDFCDB /* BackPack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackPack.swift; sourceTree = "<group>"; };
+		C914100C2A1F48A300BDFCDB /* ExpandingListContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandingListContentView.swift; sourceTree = "<group>"; };
+		C914100F2A1F4B5600BDFCDB /* DisclosureContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisclosureContentView.swift; sourceTree = "<group>"; };
 		C93EEA2B2A1DF6AF006BB912 /* ToDoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoList.swift; sourceTree = "<group>"; };
 		C9489F752A1D91ED0095831C /* PickerContenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerContenView.swift; sourceTree = "<group>"; };
 		C9489F782A1D98EB0095831C /* ModifierContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifierContentView.swift; sourceTree = "<group>"; };
@@ -71,6 +85,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C9140FFF2A1F3B8500BDFCDB /* LazyStack */ = {
+			isa = PBXGroup;
+			children = (
+				C91410002A1F3BA000BDFCDB /* LazyStackContentView.swift */,
+				C91410022A1F3BCB00BDFCDB /* ListRow.swift */,
+				C91410042A1F3E6E00BDFCDB /* LazyGridContentView.swift */,
+			);
+			path = LazyStack;
+			sourceTree = "<group>";
+		};
+		C91410062A1F422B00BDFCDB /* ScrollViewReader */ = {
+			isa = PBXGroup;
+			children = (
+				C91410072A1F424E00BDFCDB /* ScrollViewReaderContentView.swift */,
+			);
+			path = ScrollViewReader;
+			sourceTree = "<group>";
+		};
+		C91410092A1F476600BDFCDB /* ExpandingList */ = {
+			isa = PBXGroup;
+			children = (
+				C914100A2A1F478300BDFCDB /* BackPack.swift */,
+				C914100C2A1F48A300BDFCDB /* ExpandingListContentView.swift */,
+			);
+			path = ExpandingList;
+			sourceTree = "<group>";
+		};
+		C914100E2A1F4B3700BDFCDB /* Disclosure */ = {
+			isa = PBXGroup;
+			children = (
+				C914100F2A1F4B5600BDFCDB /* DisclosureContentView.swift */,
+			);
+			path = Disclosure;
+			sourceTree = "<group>";
+		};
 		C93EEA2A2A1DF69F006BB912 /* ToDoList */ = {
 			isa = PBXGroup;
 			children = (
@@ -188,6 +237,10 @@
 		C96C74F42A1CB9E100D6D0CF /* SwiftUI-Prac */ = {
 			isa = PBXGroup;
 			children = (
+				C914100E2A1F4B3700BDFCDB /* Disclosure */,
+				C91410092A1F476600BDFCDB /* ExpandingList */,
+				C91410062A1F422B00BDFCDB /* ScrollViewReader */,
+				C9140FFF2A1F3B8500BDFCDB /* LazyStack */,
 				C93EEA2A2A1DF69F006BB912 /* ToDoList */,
 				C9489F932A1DF1C90095831C /* ListAdd */,
 				C9489F902A1DF0650095831C /* CustomRows */,
@@ -302,6 +355,7 @@
 			files = (
 				C96C75052A1CCC3D00D6D0CF /* ImageView.swift in Sources */,
 				C9489F862A1DA32A0095831C /* ActivityIndicator.swift in Sources */,
+				C91410082A1F424E00BDFCDB /* ScrollViewReaderContentView.swift in Sources */,
 				C96C750E2A1CD0C900D6D0CF /* ButtonContentView.swift in Sources */,
 				C96C75102A1CD17100D6D0CF /* ButtonView.swift in Sources */,
 				C9489F762A1D91ED0095831C /* PickerContenView.swift in Sources */,
@@ -315,11 +369,17 @@
 				C9489F7E2A1D9BDF0095831C /* ViewBuilderContentView.swift in Sources */,
 				C96C750B2A1CD08E00D6D0CF /* MenuButtonView.swift in Sources */,
 				C9489F922A1DF0B00095831C /* WeatherRow.swift in Sources */,
+				C91410012A1F3BA000BDFCDB /* LazyStackContentView.swift in Sources */,
+				C91410052A1F3E6E00BDFCDB /* LazyGridContentView.swift in Sources */,
 				C9489F842A1DA3080095831C /* UIKitToSwiftUIView.swift in Sources */,
+				C914100B2A1F478300BDFCDB /* BackPack.swift in Sources */,
 				C9489F892A1DA6720095831C /* MoreViewsContentView.swift in Sources */,
+				C91410102A1F4B5600BDFCDB /* DisclosureContentView.swift in Sources */,
 				C96C75092A1CD08300D6D0CF /* PasteButtonView.swift in Sources */,
 				C96C74F62A1CB9E100D6D0CF /* SwiftUI_PracApp.swift in Sources */,
 				C9489F8F2A1DE9A70095831C /* StaticContentView.swift in Sources */,
+				C91410032A1F3BCB00BDFCDB /* ListRow.swift in Sources */,
+				C914100D2A1F48A300BDFCDB /* ExpandingListContentView.swift in Sources */,
 				C9489F792A1D98EB0095831C /* ModifierContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
