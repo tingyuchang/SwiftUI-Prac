@@ -35,6 +35,13 @@
 		C914103F2A205E5700BDFCDB /* PresentingSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C914103E2A205E5700BDFCDB /* PresentingSheetView.swift */; };
 		C91410422A20624900BDFCDB /* ContextmenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91410412A20624900BDFCDB /* ContextmenuView.swift */; };
 		C91410442A20638D00BDFCDB /* PopoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91410432A20638D00BDFCDB /* PopoverView.swift */; };
+		C91410462A20732E00BDFCDB /* BuiltInShapesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91410452A20732E00BDFCDB /* BuiltInShapesView.swift */; };
+		C91410482A2082AB00BDFCDB /* CanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91410472A2082AB00BDFCDB /* CanvasView.swift */; };
+		C914104A2A20857500BDFCDB /* ProgressRingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91410492A20857500BDFCDB /* ProgressRingView.swift */; };
+		C914104C2A2089AE00BDFCDB /* TicTacToeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C914104B2A2089AE00BDFCDB /* TicTacToeView.swift */; };
+		C914104E2A208FED00BDFCDB /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C914104D2A208FED00BDFCDB /* GradientView.swift */; };
+		C91410502A2094DE00BDFCDB /* BarCharView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C914104F2A2094DE00BDFCDB /* BarCharView.swift */; };
+		C91410522A2099C900BDFCDB /* PieCharView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91410512A2099C900BDFCDB /* PieCharView.swift */; };
 		C93EEA2C2A1DF6AF006BB912 /* ToDoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93EEA2B2A1DF6AF006BB912 /* ToDoList.swift */; };
 		C9489F762A1D91ED0095831C /* PickerContenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9489F752A1D91ED0095831C /* PickerContenView.swift */; };
 		C9489F792A1D98EB0095831C /* ModifierContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9489F782A1D98EB0095831C /* ModifierContentView.swift */; };
@@ -89,6 +96,13 @@
 		C914103E2A205E5700BDFCDB /* PresentingSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentingSheetView.swift; sourceTree = "<group>"; };
 		C91410412A20624900BDFCDB /* ContextmenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextmenuView.swift; sourceTree = "<group>"; };
 		C91410432A20638D00BDFCDB /* PopoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverView.swift; sourceTree = "<group>"; };
+		C91410452A20732E00BDFCDB /* BuiltInShapesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuiltInShapesView.swift; sourceTree = "<group>"; };
+		C91410472A2082AB00BDFCDB /* CanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasView.swift; sourceTree = "<group>"; };
+		C91410492A20857500BDFCDB /* ProgressRingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressRingView.swift; sourceTree = "<group>"; };
+		C914104B2A2089AE00BDFCDB /* TicTacToeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeView.swift; sourceTree = "<group>"; };
+		C914104D2A208FED00BDFCDB /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		C914104F2A2094DE00BDFCDB /* BarCharView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarCharView.swift; sourceTree = "<group>"; };
+		C91410512A2099C900BDFCDB /* PieCharView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieCharView.swift; sourceTree = "<group>"; };
 		C93EEA2B2A1DF6AF006BB912 /* ToDoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoList.swift; sourceTree = "<group>"; };
 		C9489F752A1D91ED0095831C /* PickerContenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerContenView.swift; sourceTree = "<group>"; };
 		C9489F782A1D98EB0095831C /* ModifierContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifierContentView.swift; sourceTree = "<group>"; };
@@ -234,6 +248,13 @@
 		C91410402A20623100BDFCDB /* Ch7 */ = {
 			isa = PBXGroup;
 			children = (
+				C91410452A20732E00BDFCDB /* BuiltInShapesView.swift */,
+				C91410472A2082AB00BDFCDB /* CanvasView.swift */,
+				C91410492A20857500BDFCDB /* ProgressRingView.swift */,
+				C914104B2A2089AE00BDFCDB /* TicTacToeView.swift */,
+				C914104D2A208FED00BDFCDB /* GradientView.swift */,
+				C914104F2A2094DE00BDFCDB /* BarCharView.swift */,
+				C91410512A2099C900BDFCDB /* PieCharView.swift */,
 			);
 			path = Ch7;
 			sourceTree = "<group>";
@@ -482,11 +503,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				C91410222A1F58E000BDFCDB /* DifferentDeviceContentView.swift in Sources */,
+				C91410522A2099C900BDFCDB /* PieCharView.swift in Sources */,
 				C914101F2A1F559600BDFCDB /* NavigationSecondView.swift in Sources */,
+				C91410482A2082AB00BDFCDB /* CanvasView.swift in Sources */,
 				C96C75052A1CCC3D00D6D0CF /* ImageView.swift in Sources */,
 				C9489F862A1DA32A0095831C /* ActivityIndicator.swift in Sources */,
 				C91410362A1FB99B00BDFCDB /* TabView.swift in Sources */,
 				C91410322A1FB1BE00BDFCDB /* FormFieldDisableView.swift in Sources */,
+				C91410462A20732E00BDFCDB /* BuiltInShapesView.swift in Sources */,
+				C914104A2A20857500BDFCDB /* ProgressRingView.swift in Sources */,
 				C91410082A1F424E00BDFCDB /* ScrollViewReaderContentView.swift in Sources */,
 				C96C750E2A1CD0C900D6D0CF /* ButtonContentView.swift in Sources */,
 				C96C75102A1CD17100D6D0CF /* ButtonView.swift in Sources */,
@@ -494,11 +519,13 @@
 				C914101D2A1F54DE00BDFCDB /* NavigationViewContentView.swift in Sources */,
 				C91410392A2052E300BDFCDB /* PresentingAlertView.swift in Sources */,
 				C91410302A1F7A7700BDFCDB /* Ch5ContentView.swift in Sources */,
+				C914104E2A208FED00BDFCDB /* GradientView.swift in Sources */,
 				C9489F762A1D91ED0095831C /* PickerContenView.swift in Sources */,
 				C9489F7C2A1D9AF70095831C /* BlueCircle.swift in Sources */,
 				C9489F952A1DF1DB0095831C /* ListAddContentView.swift in Sources */,
 				C96C74F82A1CB9E100D6D0CF /* ContentView.swift in Sources */,
 				C91410132A1F4F4A00BDFCDB /* DarkModeContentView.swift in Sources */,
+				C914104C2A2089AE00BDFCDB /* TicTacToeView.swift in Sources */,
 				C91410442A20638D00BDFCDB /* PopoverView.swift in Sources */,
 				C91410292A1F5ED700BDFCDB /* Insect.swift in Sources */,
 				C91410162A1F509F00BDFCDB /* DynamicTypeSizeContentView.swift in Sources */,
@@ -528,6 +555,7 @@
 				C91410032A1F3BCB00BDFCDB /* ListRow.swift in Sources */,
 				C914100D2A1F48A300BDFCDB /* ExpandingListContentView.swift in Sources */,
 				C9489F792A1D98EB0095831C /* ModifierContentView.swift in Sources */,
+				C91410502A2094DE00BDFCDB /* BarCharView.swift in Sources */,
 				C914103F2A205E5700BDFCDB /* PresentingSheetView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
