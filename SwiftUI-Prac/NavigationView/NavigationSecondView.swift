@@ -8,13 +8,18 @@
 import SwiftUI
 
 struct NavigationSecondView: View {
+    var someText: String
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text(self.someText)
+            .navigationTitle("Second View")
+            .navigationBarTitleDisplayMode(.inline)
     }
 }
 
 struct NavigationSecondView_Previews: PreviewProvider {
     static var previews: some View {
-        NavigationSecondView()
+        NavigationView {
+            NavigationSecondView(someText: "Test")
+        }
     }
 }

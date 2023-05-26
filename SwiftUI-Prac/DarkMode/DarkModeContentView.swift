@@ -8,13 +8,18 @@
 import SwiftUI
 
 struct DarkModeContentView: View {
+    @Environment(\.colorScheme) var deviceColorScheme
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView {
+            Text(self.deviceColorScheme == .dark ? "Quick journey to the dar side" : "Back to the light.")
+        }
     }
 }
 
 struct DarkModeContentView_Previews: PreviewProvider {
     static var previews: some View {
-        DarkModeContentView()
+        DarkModeContentView().preferredColorScheme(.dark)
+        DarkModeContentView().preferredColorScheme(.light)
     }
 }

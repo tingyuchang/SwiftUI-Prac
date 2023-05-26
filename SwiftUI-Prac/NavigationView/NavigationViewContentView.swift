@@ -9,7 +9,19 @@ import SwiftUI
 
 struct NavigationViewContentView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView {
+            VStack {
+                NavigationLink(destination: NavigationSecondView(someText: "Sample Text")) {
+                    Text("Go to Second View")
+                        .foregroundColor(.white)
+                        .padding()
+                        .background(.black)
+                        .cornerRadius(25)
+                }
+            }
+            .navigationTitle("Previews")
+            .navigationBarTitleDisplayMode(.inline)
+        }
     }
 }
 

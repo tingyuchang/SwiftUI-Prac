@@ -9,12 +9,24 @@ import SwiftUI
 
 struct DifferentDeviceContentView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Image("friendship")
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+            Text("Importance of friendship")
+                .font(.title)
+            Text("Friends helps us deal with stesss and make better life choices")
+                .multilineTextAlignment(.center)
+                .padding()
+        }
     }
 }
 
 struct DifferentDeviceContentView_Previews: PreviewProvider {
     static var previews: some View {
-        DifferentDeviceContentView()
+        Group {
+            DifferentDeviceContentView()
+        }.previewDevice("iPhone 11 Pro Max")
+            .previewDisplayName("iPhone 11 Pro Max")
     }
 }

@@ -6,3 +6,12 @@
 //
 
 import Foundation
+
+struct Article {
+    var imageName: String
+    var title: String
+    var description: String
+    
+        
+    
+}
